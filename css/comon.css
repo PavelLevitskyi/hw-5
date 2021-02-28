@@ -145,11 +145,11 @@ h3 {
 .link::after {
   content: '';
   position: absolute;
-  left: 0;
-  top: 45px;
+  transform: translateY(45px);
   display: block;
   width: 100%;
   height: 4px;
+
   background-color: var(--hover-allblue);
   border-radius: 2px;
 
