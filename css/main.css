@@ -1,7 +1,7 @@
 /*by-our-product*/
 
 .product-section {
-  min-width: 1600px;
+  max-width: 1600px;
   padding: 200px 15px;
   text-align: center;
   color: var(--white-color);
@@ -16,6 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
 }
 
 .product-item {
